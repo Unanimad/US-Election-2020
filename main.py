@@ -187,6 +187,6 @@ def main():
 
 if __name__ == '__main__':
     scheduler = BlockingScheduler()
-    scheduler.add_job(main(), 'interval', hours=1, start_date='2020-11-04 23:00:00', timezone='America/Maceio')
+    scheduler.add_job(main(), 'interval', hours=1, timezone='America/Maceio')
 
     scheduler.start()
