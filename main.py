@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
-from apscheduler.schedulers.blocking import BlockingScheduler
 
+from apscheduler.schedulers.blocking import BlockingScheduler
 from kaggle import KaggleApi
 
 
@@ -177,7 +177,7 @@ def main():
                                                  columns=['state', 'county', 'candidate', 'party', 'votes'])
 
     governors_state_df.to_csv('data/governors_state.csv', index=False)
-    governors_county_df.to_csv('data/overnors_county.csv', index=False)
+    governors_county_df.to_csv('data/governors_county.csv', index=False)
     governors_county_candidate_df.to_csv('data/governors_county_candidate.csv', index=False)
 
     api.dataset_create_version(
@@ -187,6 +187,6 @@ def main():
 
 if __name__ == '__main__':
     scheduler = BlockingScheduler()
-    scheduler.add_job(main(), "interval", hours=1, timezone="America/Maceio")
+    scheduler.add_job(main(), 'interval', hours=1, start_date='2020-11-04 23:00:00', timezone='America/Maceio')
 
     scheduler.start()
