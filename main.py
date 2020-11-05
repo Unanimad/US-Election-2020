@@ -37,8 +37,8 @@ def main():
                             president[state][county][0][1],
                             president[state][county][0][2],
                             president[state][county][0][3]])
-                    else:
-                        president_county_candidate.append([
+
+                    president_county_candidate.append([
                             president_state[-1][0],
                             president[state][county][0][0],
                             ' '.join(candidate[:2]),
@@ -77,8 +77,8 @@ def main():
                             senate[state][county][0][2],
                             senate[state][county][0][3]
                         ])
-                    else:
-                        senate_county_candidate.append([
+
+                    senate_county_candidate.append([
                             senate_state[-1][0],
                             senate[state][county][0][0],
                             ' '.join(candidate[:2]),
@@ -121,8 +121,8 @@ def main():
                             house[state][county][0][2],
                             house[state][county][0][3]
                         ])
-                    else:
-                        house_county_candidate.append([
+
+                    house_county_candidate.append([
                             house_state[-1][0],
                             house[state][county][0][0],
                             ' '.join(candidate[:2]),
@@ -161,8 +161,8 @@ def main():
                             governors[state][county][0][2],
                             governors[state][county][0][3]
                         ])
-                    else:
-                        governors_county_candidate.append([
+
+                    governors_county_candidate.append([
                             governors_state[-1][0],
                             governors[state][county][0][0],
                             ' '.join(candidate[:2]),
