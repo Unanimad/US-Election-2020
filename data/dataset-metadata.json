@@ -1,394 +1,363 @@
 {
-    "title": "US Election 2020",
-	"id": "unanimad/us-election-2020",
-    "subtitle": "Race to Presidential Election 2020 by County",
-    "description": "Please, If you enjoyed this dataset, don't forget to upvote it.\n\n---\n\n# US Election 2020\n\n![]![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F3244747%2Fe3d324df1d76e85baabf06d116741890%2Fheader.png?generation=1604669584815405&alt=media)\n\n\n## UNDER CONSTRUCTION",
-    "isPrivate": false,
-    "licenses": [
+  "title": "US Election 2020",
+  "id": "unanimad/us-election-2020",
+  "subtitle": "Race to Presidential Election 2020 by County",
+  "description": "Please, If you enjoyed this dataset, don't forget to upvote it.\n\n---\n\n# US Election 2020\n\n![]![](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F3244747%2Fe3d324df1d76e85baabf06d116741890%2Fheader.png?generation=1604669584815405&alt=media)\n\n\n## UNDER CONSTRUCTION",
+  "isPrivate": false,
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "politics"
+  ],
+  "collaborators": [],
+  "data": [
+    {
+      "description": null,
+      "name": "governors_county.csv",
+      "totalBytes": 37058,
+      "columns": [
         {
-            "name": "CC0-1.0"
+          "name": "state",
+          "description": "State name",
+          "type": "String"
+        },
+        {
+          "name": "county",
+          "description": "County name",
+          "type": "String"
+        },
+        {
+          "name": "current_votes",
+          "description": "Reporting votes",
+          "type": "Uuid"
+        },
+        {
+          "name": "total_votes",
+          "description": "Total votes",
+          "type": "Uuid"
+        },
+        {
+          "name": "percent",
+          "description": "Vote %",
+          "type": "Uuid"
         }
-    ],
-    "keywords": [
-        "politics"
-    ],
-    "collaborators": [],
-    "data": [
+      ]
+    },
+    {
+      "description": null,
+      "name": "governors_county_candidate.csv",
+      "totalBytes": 213357,
+      "columns": [
         {
-            "description": null,
-            "name": "governors_county.csv",
-            "totalBytes": 36886,
-            "columns": [
-                {
-                    "name": "state",
-                    "description": "State name",
-                    "type": "String"
-                },
-                {
-                    "name": "county",
-                    "description": "County name",
-                    "type": "String"
-                },
-                {
-                    "name": "current_votes",
-                    "description": "Reporting votes",
-                    "type": "Uuid"
-                },
-                {
-                    "name": "total_votes",
-                    "description": "Total votes",
-                    "type": "Uuid"
-                },
-                {
-                    "name": "percent",
-                    "description": "Vote %",
-                    "type": "Uuid"
-                }
-            ]
+          "name": "state",
+          "description": "State name",
+          "type": "String"
         },
         {
-            "description": null,
-            "name": "governors_county_candidate.csv",
-            "totalBytes": 172697,
-            "columns": [
-                {
-                    "name": "state",
-                    "description": "State name",
-                    "type": "String"
-                },
-                {
-                    "name": "county",
-                    "description": "County name",
-                    "type": "String"
-                },
-                {
-                    "name": "candidate",
-                    "description": "Candidate name",
-                    "type": "String"
-                },
-                {
-                    "name": "party",
-                    "description": "Candidate party name",
-                    "type": "String"
-                },
-                {
-                    "name": "votes",
-                    "description": "Reporting votes",
-                    "type": "Uuid"
-                }
-            ]
+          "name": "county",
+          "description": "County name",
+          "type": "String"
         },
         {
-            "description": null,
-            "name": "governors_state.csv",
-            "totalBytes": 257,
-            "columns": [
-                {
-                    "name": "state",
-                    "description": "State name",
-                    "type": "String"
-                },
-                {
-                    "name": "votes",
-                    "description": "Reporting votes",
-                    "type": "Uuid"
-                },
-                {
-                    "name": "electoral_vote",
-                    "description": "Electoral Vote",
-                    "type": "Uuid"
-                }
-            ]
+          "name": "candidate",
+          "description": "Candidate name",
+          "type": "String"
         },
         {
-            "description": null,
-            "name": "house_county.csv",
-            "totalBytes": 6042,
-            "columns": [
-                {
-                    "name": "state",
-                    "description": "State name",
-                    "type": null
-                },
-                {
-                    "name": "county",
-                    "description": "County name",
-                    "type": "String"
-                },
-                {
-                    "name": "current_votes",
-                    "description": "Reporting votes",
-                    "type": "Uuid"
-                },
-                {
-                    "name": "total_votes",
-                    "description": "Total votes",
-                    "type": "Uuid"
-                },
-                {
-                    "name": "percent",
-                    "description": "Vote %",
-                    "type": "Uuid"
-                }
-            ]
+          "name": "party",
+          "description": "Candidate party name",
+          "type": "String"
         },
         {
-            "description": null,
-            "name": "house_county_candidate.csv",
-            "totalBytes": 139724,
-            "columns": [
-                {
-                    "name": "state",
-                    "description": "State name",
-                    "type": null
-                },
-                {
-                    "name": "county",
-                    "description": "County name",
-                    "type": "String"
-                },
-                {
-                    "name": "candidate",
-                    "description": "Candidate name",
-                    "type": "String"
-                },
-                {
-                    "name": "party",
-                    "description": "Candidate party name",
-                    "type": "String"
-                },
-                {
-                    "name": "votes",
-                    "description": "Vote %",
-                    "type": "Uuid"
-                }
-            ]
-        },
-        {
-            "description": null,
-            "name": "house_state.csv",
-            "totalBytes": 47,
-            "columns": [
-                {
-                    "name": "state",
-                    "description": "State name",
-                    "type": null
-                },
-                {
-                    "name": "votes",
-                    "description": "Reporting votes",
-                    "type": "Uuid"
-                },
-                {
-                    "name": "electoral_vote",
-                    "description": "Electoral vote",
-                    "type": "Uuid"
-                }
-            ]
-        },
-        {
-            "description": null,
-            "name": "overnors_county.csv",
-            "totalBytes": 37936,
-            "columns": [
-                {
-                    "name": "state",
-                    "description": null,
-                    "type": "String"
-                },
-                {
-                    "name": "county",
-                    "description": null,
-                    "type": "String"
-                },
-                {
-                    "name": "current_votes",
-                    "description": null,
-                    "type": "Uuid"
-                },
-                {
-                    "name": "total_votes",
-                    "description": null,
-                    "type": "Uuid"
-                },
-                {
-                    "name": "percent",
-                    "description": null,
-                    "type": "Uuid"
-                }
-            ]
-        },
-        {
-            "description": null,
-            "name": "president_county.csv",
-            "totalBytes": 170950,
-            "columns": [
-                {
-                    "name": "state",
-                    "description": "State name",
-                    "type": "String"
-                },
-                {
-                    "name": "county",
-                    "description": "County name",
-                    "type": "String"
-                },
-                {
-                    "name": "current_votes",
-                    "description": "Reporting votes",
-                    "type": "Uuid"
-                },
-                {
-                    "name": "total_votes",
-                    "description": "Total votes",
-                    "type": "Uuid"
-                },
-                {
-                    "name": "percent",
-                    "description": "Vote %",
-                    "type": "Uuid"
-                }
-            ]
-        },
-        {
-            "description": null,
-            "name": "president_county_candidate.csv",
-            "totalBytes": 1149050,
-            "columns": [
-                {
-                    "name": "state",
-                    "description": "State name",
-                    "type": "String"
-                },
-                {
-                    "name": "county",
-                    "description": "County name",
-                    "type": "String"
-                },
-                {
-                    "name": "candidate",
-                    "description": "Candidate name",
-                    "type": "String"
-                },
-                {
-                    "name": "party",
-                    "description": "Candidate party name",
-                    "type": "String"
-                },
-                {
-                    "name": "votes",
-                    "description": "Vote %",
-                    "type": "Uuid"
-                }
-            ]
-        },
-        {
-            "description": null,
-            "name": "president_state.csv",
-            "totalBytes": 1197,
-            "columns": [
-                {
-                    "name": "state",
-                    "description": "State nema",
-                    "type": "String"
-                },
-                {
-                    "name": "votes",
-                    "description": "Reporting votes",
-                    "type": "Uuid"
-                },
-                {
-                    "name": "electoral_vote",
-                    "description": "Electoral vote",
-                    "type": "Uuid"
-                }
-            ]
-        },
-        {
-            "description": null,
-            "name": "senate_county.csv",
-            "totalBytes": 125666,
-            "columns": [
-                {
-                    "name": "state",
-                    "description": "State name",
-                    "type": "String"
-                },
-                {
-                    "name": "county",
-                    "description": "County name",
-                    "type": "String"
-                },
-                {
-                    "name": "current_votes",
-                    "description": "Reporting votes",
-                    "type": "Uuid"
-                },
-                {
-                    "name": "total_votes",
-                    "description": "Total votes",
-                    "type": "Uuid"
-                },
-                {
-                    "name": "percent",
-                    "description": "Vote %",
-                    "type": "Uuid"
-                }
-            ]
-        },
-        {
-            "description": null,
-            "name": "senate_county_candidate.csv",
-            "totalBytes": 489062,
-            "columns": [
-                {
-                    "name": "state",
-                    "description": "State name",
-                    "type": "String"
-                },
-                {
-                    "name": "county",
-                    "description": "County name",
-                    "type": "String"
-                },
-                {
-                    "name": "candidate",
-                    "description": "Candidate name",
-                    "type": "String"
-                },
-                {
-                    "name": "party",
-                    "description": "Candidate party name",
-                    "type": "String"
-                },
-                {
-                    "name": "votes",
-                    "description": "Vote %",
-                    "type": "Uuid"
-                }
-            ]
-        },
-        {
-            "description": null,
-            "name": "senate_state.csv",
-            "totalBytes": 718,
-            "columns": [
-                {
-                    "name": "state",
-                    "description": "State name",
-                    "type": "String"
-                },
-                {
-                    "name": "votes",
-                    "description": "Reporting votes",
-                    "type": "Uuid"
-                },
-                {
-                    "name": "electoral_vote",
-                    "description": "Electoral vote",
-                    "type": "Uuid"
-                }
-            ]
+          "name": "votes",
+          "description": "Reporting votes",
+          "type": "Uuid"
         }
-    ]
+      ]
+    },
+    {
+      "description": null,
+      "name": "governors_state.csv",
+      "totalBytes": 245,
+      "columns": [
+        {
+          "name": "state",
+          "description": "State name",
+          "type": "String"
+        },
+        {
+          "name": "votes",
+          "description": "Reporting votes",
+          "type": "Uuid"
+        },
+        {
+          "name": "electoral_vote",
+          "description": "Electoral Vote",
+          "type": "Uuid"
+        }
+      ]
+    },
+    {
+      "description": null,
+      "name": "house_county.csv",
+      "totalBytes": 5885,
+      "columns": [
+        {
+          "name": "state",
+          "description": "State name",
+          "type": null
+        },
+        {
+          "name": "county",
+          "description": "County name",
+          "type": "String"
+        },
+        {
+          "name": "current_votes",
+          "description": "Reporting votes",
+          "type": "Uuid"
+        },
+        {
+          "name": "total_votes",
+          "description": "Total votes",
+          "type": "Uuid"
+        },
+        {
+          "name": "percent",
+          "description": "Vote %",
+          "type": "Uuid"
+        }
+      ]
+    },
+    {
+      "description": null,
+      "name": "house_county_candidate.csv",
+      "totalBytes": 145029,
+      "columns": [
+        {
+          "name": "state",
+          "description": "State name",
+          "type": null
+        },
+        {
+          "name": "county",
+          "description": "County name",
+          "type": "String"
+        },
+        {
+          "name": "candidate",
+          "description": "Candidate name",
+          "type": "String"
+        },
+        {
+          "name": "party",
+          "description": "Candidate party name",
+          "type": "String"
+        },
+        {
+          "name": "votes",
+          "description": "Reporting votes",
+          "type": "Uuid"
+        }
+      ]
+    },
+    {
+      "description": null,
+      "name": "house_state.csv",
+      "totalBytes": 45,
+      "columns": [
+        {
+          "name": "state",
+          "description": "State name",
+          "type": null
+        },
+        {
+          "name": "votes",
+          "description": "Reporting votes",
+          "type": "Uuid"
+        },
+        {
+          "name": "electoral_vote",
+          "description": "Electoral vote",
+          "type": "Uuid"
+        }
+      ]
+    },
+    {
+      "description": null,
+      "name": "president_county.csv",
+      "totalBytes": 166870,
+      "columns": [
+        {
+          "name": "state",
+          "description": "State name",
+          "type": "String"
+        },
+        {
+          "name": "county",
+          "description": "County name",
+          "type": "String"
+        },
+        {
+          "name": "current_votes",
+          "description": "Reporting votes",
+          "type": "Uuid"
+        },
+        {
+          "name": "total_votes",
+          "description": "Total votes",
+          "type": "Uuid"
+        },
+        {
+          "name": "percent",
+          "description": "Vote %",
+          "type": "Uuid"
+        }
+      ]
+    },
+    {
+      "description": null,
+      "name": "president_county_candidate.csv",
+      "totalBytes": 1324209,
+      "columns": [
+        {
+          "name": "state",
+          "description": "State name",
+          "type": "String"
+        },
+        {
+          "name": "county",
+          "description": "County name",
+          "type": "String"
+        },
+        {
+          "name": "candidate",
+          "description": "Candidate name",
+          "type": "String"
+        },
+        {
+          "name": "party",
+          "description": "Candidate party name",
+          "type": "String"
+        },
+        {
+          "name": "votes",
+          "description": "Reporting votes",
+          "type": "Uuid"
+        }
+      ]
+    },
+    {
+      "description": null,
+      "name": "president_state.csv",
+      "totalBytes": 1144,
+      "columns": [
+        {
+          "name": "state",
+          "description": "State nema",
+          "type": "String"
+        },
+        {
+          "name": "votes",
+          "description": "Reporting votes",
+          "type": "Uuid"
+        },
+        {
+          "name": "electoral_vote",
+          "description": "Electoral vote",
+          "type": "Uuid"
+        }
+      ]
+    },
+    {
+      "description": null,
+      "name": "senate_county.csv",
+      "totalBytes": 122808,
+      "columns": [
+        {
+          "name": "state",
+          "description": "State name",
+          "type": "String"
+        },
+        {
+          "name": "county",
+          "description": "County name",
+          "type": "String"
+        },
+        {
+          "name": "current_votes",
+          "description": "Reporting votes",
+          "type": "Uuid"
+        },
+        {
+          "name": "total_votes",
+          "description": "Total votes",
+          "type": "Uuid"
+        },
+        {
+          "name": "percent",
+          "description": "Vote %",
+          "type": "Uuid"
+        }
+      ]
+    },
+    {
+      "description": null,
+      "name": "senate_county_candidate.csv",
+      "totalBytes": 631433,
+      "columns": [
+        {
+          "name": "state",
+          "description": "State name",
+          "type": "String"
+        },
+        {
+          "name": "county",
+          "description": "County name",
+          "type": "String"
+        },
+        {
+          "name": "candidate",
+          "description": "Candidate name",
+          "type": "String"
+        },
+        {
+          "name": "party",
+          "description": "Candidate party name",
+          "type": "String"
+        },
+        {
+          "name": "votes",
+          "description": "Reporting votes",
+          "type": "Uuid"
+        }
+      ]
+    },
+    {
+      "description": null,
+      "name": "senate_state.csv",
+      "totalBytes": 683,
+      "columns": [
+        {
+          "name": "state",
+          "description": "State name",
+          "type": "String"
+        },
+        {
+          "name": "votes",
+          "description": "Reporting votes",
+          "type": "Uuid"
+        },
+        {
+          "name": "electoral_vote",
+          "description": "Electoral vote",
+          "type": "Uuid"
+        }
+      ]
+    }
+  ]
 }
+
